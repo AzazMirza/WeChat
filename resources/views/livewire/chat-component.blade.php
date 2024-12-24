@@ -31,27 +31,6 @@
             />
           </svg>
         </div>
-        {{-- <div class="mt-20 mb-16">
-          @foreach ($message as $mess)
-            
-          @if ($mess['sender'] != auth()->user()->name)
-          <div class="clearfix">
-            <div
-            class="bg-gray-300 w-3/4 mx-4 my-2 p-2 rounded-lg"
-            >this is a basic mobile chat layout, build with tailwind css</div>
-          </div>
-          
-          @else
-
-          <div class="clearfix">
-            <div
-            class="bg-green-300 float-right w-3/4 mx-4 my-2 p-2 rounded-lg clearfix"
-            >check my twitter to see when it will be released.</div>
-          </div>
-          
-          @endif
-          @endforeach
-        </div> --}}
 
         <div class="mt-20 mb-16 space-y-4"> {{-- Use `space-y-4` for vertical spacing between messages --}}
           @foreach ($message as $mess)
